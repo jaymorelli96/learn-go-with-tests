@@ -28,7 +28,7 @@ func greetingPrefix(language string) (prefix string) {
 		prefix = englishHelloPrefix
 	}
 
-	return
+	return prefix
 }
 
 func main() {
