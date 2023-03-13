@@ -1,10 +1,12 @@
 package iteration
 
+import "strings"
+
 func Repeat(word string, n int) string {
-	var result string
+	var result strings.Builder
 	for i := 0; i < n; i++ {
-		result += word
+		result.Write([]byte(word))
 	}
 
-	return result
+	return result.String()
 }
