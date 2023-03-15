@@ -1,4 +1,4 @@
-package structsMethodsInterfaces
+package structs
 
 import (
 	"math"
